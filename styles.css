@@ -1,12 +1,14 @@
+/*  Style all images*/
 img {
     height: 200px;
     width: 200px;
 }
+/* Style images where they are in a div with the bigger-images class */
 .bigger-images > img{
     height: 400px;
     width: 400px;
 }
-
+/* Style by id */
 #small-cat {
     height: 50px;
     width: 50px;
